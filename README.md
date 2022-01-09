@@ -1,2 +1,2 @@
-# oding-project-page
+# odin-project-page
 Odin Project Project
