@@ -107,4 +107,44 @@ body{
     align-self: flex-start;
 }
 
+.info-section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
+.info-section-title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0%;
+    color: #1F2937;
+}
+
+.img-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.img-section-item{
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.img-section-placeholder{
+    border: solid #3882F6;
+    border-width: 5px;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+.img-sub{
+    text-align: center;
+    color: gray;
+}
