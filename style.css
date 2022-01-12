@@ -1,0 +1,110 @@
+@font-face {
+    font-family: roboto;
+    src: url(/home/tereza/repos/odin-project-page/font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/home/tereza/repos/odin-project-page/font/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/home/tereza/repos/odin-project-page/font/Roboto/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+
+body{
+    font-family: roboto;
+    margin: 0%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+.header{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header-logo{
+    font-size: 24   px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.right-menu{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero{
+    background-color: #1F2937;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.hero-left{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.hero-main{
+    font-size: 48px;
+    width: 60%;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0%;
+}
+
+.hero-p{
+    font-size: 20px;
+    width: 75%;
+    color: #E5E7EB;
+    margin: 0%;
+}
+
+.img-placeholder{
+    width: 50%;
+    height: 60%;
+    background-color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.hero-button{
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    outline: none;
+    box-shadow: none;
+    border-width: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    align-self: flex-start;
+}
+
+
