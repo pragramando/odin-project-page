@@ -15,6 +15,11 @@
     font-weight: 900;
 }
 
+@font-face {
+    font-family: roboto;
+    src: url(/home/tereza/repos/odin-project-page/font/Roboto/Roboto-LightItalic.ttf);
+    font-style: italic;
+}
 
 body{
     font-family: roboto;
@@ -107,6 +112,11 @@ body{
     align-self: flex-start;
 }
 
+.hero-button:hover{
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
+
 .info-section{
     display: flex;
     flex-flow: column;
@@ -147,4 +157,77 @@ body{
 .img-sub{
     text-align: center;
     color: gray;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 300px;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0px;
+}
+
+.quote-author{
+    margin: 0px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-section-center{
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 100px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.signup-button{
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 5px;
+    padding: 10px 30px; 
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.signup-button:hover{
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.contact-text{
+    color: #E5E7EB;
+}
+
+.no-margin{
+    margin: 0px;
 }
